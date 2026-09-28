@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products | Crikut OPF</title>
+
+    <link rel="stylesheet" href="BSCS26023_style.css">
+    <link rel="icon" type="image/png" href="BSCS26023_image0.png">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Crikut OPF</div>
+
+        <ul class="nav-links">
+            <li><a href="BSCS26023_Home.html">HOME</a></li>
+            <li><a class="active" href="BSCS26023_Products.html">PRODUCTS</a></li>
+            <li><a href="BSCS26023_Contact.html">ABOUT US</a></li>
+        </ul>
+    </header>
+
+    <section class="section">
+    <h1 class="section-title">Our Products</h1>
+    <p class="section-subtitle">
+        Purchase the highest quality equipment here.
+    </p>
+</section>
+
+<main class="product-list">
+
+    <article class="product-box">
+        <img src="BSCS26023_image1.png" alt="Pro 15000">
+        <div class="product-info">
+            <h2>Pro 15000</h2>
+            <p class="price">Rs. 70,0000</p>
+            <button onclick="showStock('stock1')">Check Availability</button>
+            <span id="stock1" class="availability" style="display: none;">IN STOCK</span>
+            <p>A professional cricket bat built for peak performance and powerful shots. Used by several international cricketers.</p>
+        </div>
+    </article>
+
+    <article class="product-box">
+        <img src="BSCS26023_image2.png" alt="Pro Shoes">
+        <div class="product-info">
+            <h2>Pro Shoes</h2>
+            <p class="price">Rs. 8,499</p>
+            <button onclick="showStock('stock2')">Check Availability</button>
+            <span id="stock2" class="availability" style="display: none;">IN STOCK</span>
+            <p>Shoes built for quick running and explosive sprints. Firm grip and extra speed.</p>
+        </div>
+    </article>
+
+    <article class="product-box">
+        <img src="BSCS26023_image3.png" alt="Pro Gloves">
+        <div class="product-info">
+            <h2>Pro Gloves</h2>
+            <p class="price">Rs. 7,999</p>
+            <button onclick="showStock('stock3')">Check Availability</button>
+            <span id="stock3" class="availability" style="display: none;">IN STOCK</span>
+            <p>High performance breathable gloves that stay dry and last countless innings.</p>
+        </div>
+    </article>
+
+    <article class="product-box">
+        <img src="BSCS26023_image4.png" alt="Pro Pads">
+        <div class="product-info">
+            <h2>Pro Pads</h2>
+            <p class="price">Rs. 14,999</p>
+            <button onclick="showStock('stock4')">Check Availability</button>
+            <span id="stock4" class="availability" style="display: none;">IN STOCK</span>
+            <p>A pair of pads that protect your shins and absorb your crease dives.</p>
+        </div>
+    </article>
+
+    <article class="product-box">
+        <img src="BSCS26023_image5.png" alt="Pro Helmet">
+        <div class="product-info">
+            <h2>Pro Helmet</h2>
+            <p class="price">Rs. 10,499</p>
+            <button onclick="showStock('stock5')">Check Availability</button>
+            <span id="stock5" class="availability out" style="display: none;">OUT OF STOCK</span>
+            <p>Anti concussion helmet that protects your head from ball impact.</p>
+        </div>
+    </article>
+
+</main>
+
+    <footer>
+    <h2>Crikut OPF</h2>
+    <div class="footer-details">
+        <span>Cell: +92 303 5808906</span>
+        <span>Email: bscs26023@itu.edu.pk</span>
+        <span>Location: Lahore, Pakistan</span>
+        <span>&copy; <span id="year"></span> Crikut OPF</span>
+    </div>
+</footer>
+<script src="BSCS26023_script.js"></script>
+</body>
+</html>
